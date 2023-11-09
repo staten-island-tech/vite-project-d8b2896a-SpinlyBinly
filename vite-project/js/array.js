@@ -1,0 +1,51 @@
+const opps = [
+  {
+    firstName: "Muhammad",
+    lastName: "Ali",
+    abilities: "round",
+    bitter: false,
+    berry: false,
+  },
+  {
+    firstName: "T-rex",
+    lastName: "from Jurassic world",
+    abilities: ["red", "yellow", "black"],
+    bitter: false,
+    berry: true,
+  },
+  {
+    firstName: "Oleg",
+    lastName: "Ponyatyshyn",
+    abilities: ["red", "yellow", "black"],
+    bitter: false,
+    berry: false,
+  },
+  {
+    firstName: "Muhammad",
+    lastName: "Ali's dog",
+    abilities: ["red", "yellow", "black"],
+    bitter: true,
+    berry: false,
+  },
+  {
+    firstName: "cherry",
+    lastName: "",
+    abilities: ["red", "yellow", "black"],
+    bitter: false,
+    berry: false,
+  },
+  {
+    firstName: "lemon",
+    colors: ["yellow"],
+    abilities: ["red", "yellow", "black"],
+    bitter: true,
+    berry: false,
+  },
+  {
+    firstName: "blueberry",
+    lastName: "",
+    abilities: ["red", "yellow", "black"],
+    bitter: false,
+    berry: true,
+  },
+];
