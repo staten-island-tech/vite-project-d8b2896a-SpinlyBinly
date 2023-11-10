@@ -1,4 +1,6 @@
-import "./style.css";
+import "../css/style.css";
+import { opps, name } from "./array";
+console.log(opps[0] + " is a major opp, 100% facts");
 //forEach person in opps insert adj? html
 //input type check box
 //event listener - filter array (2 items)
