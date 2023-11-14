@@ -16,6 +16,19 @@
   -webkit-text-size-adjust: 100%;
 }
 
+:root{
+  --blue: #9cd4ff;
+  --purple: #cdb5f4;
+  --primary: var(--orange)
+}
+
+.light{
+  --primary: var(var(--purple))
+}
+.dark{
+  --primary:var(--blue)
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,6 +38,7 @@ a:hover {
   color: #535bf2;
 }
 body {
+  background-color: var(--primary);
   margin: 0;
   display: flex;
   place-items: center;
@@ -42,19 +56,6 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
 }
 
 .card {
