@@ -19,19 +19,7 @@ const DOMSelectors = {
 };
 
 function clearFields() {
-  DOMSelectors.___.value = "";
-  DOMSelectors.___.value = "";
-  DOMSelectors.___.value = "";
-}
-
-function makeCard() {
-  DOMSelectors.container.insertAdjacentHTML(
-    "beforeend",
-    `<div class=card>
-      <h2> ${firstName.value} ${lastname.value} </h2>
-      <h2> Book Author: ${bookAuthor.value} </h2>  
-      <img src="${bookCover.value}" alt="">`
-  );
+  DOMSelectors.container.innerHTML = "";
 }
 
 DOMSelectors.formID.addEventListener("submit", function (event) {
