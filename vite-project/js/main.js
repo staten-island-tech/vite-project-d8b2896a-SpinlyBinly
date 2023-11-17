@@ -22,17 +22,15 @@ function clearFields() {
   DOMSelectors.container.innerHTML = "";
 }
 
-DOMSelectors.formID.addEventListener("submit", function (event) {
-  event.preventDefault();
-  makeCard();
+DOMSelectors.winButton.addEventListener("click", function (event) {
+  event.preventDefault(); //does not reload page
   clearFields();
-  function remove() {
-    let buttons = document.querySelectorAll("button");
-    buttons.forEach((btn) => {
-      btn.addEventListener("click", function (event) {
-        event.currentTarget.parentElement.remove();
-      });
-    });
-  }
-  remove();
+  let buttons = document.querySelectorAll("button");
+  buttons.forEach((btn) => {});
 });
+
+createCard();
+const wins = opps.filter((win) => win.janeWin.includes(true));
+console.log(wins);
+const losses = opps.filter((loss) => loss.janeWin.includes(false));
+console.log(losses);

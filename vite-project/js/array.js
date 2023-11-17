@@ -133,4 +133,12 @@ const opps = [
     weaknesses: ["ginger"],
     janeWin: false,
   },
+
+  {
+    firstName: "MOAB",
+    lastName: "btd6",
+    abilities: ["round", "big", "blue"],
+    weaknesses: ["pop", "darts"],
+    janeWin: true,
+  },
 ];
