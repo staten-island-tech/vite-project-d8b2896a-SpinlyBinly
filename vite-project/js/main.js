@@ -1,5 +1,5 @@
 import "../css/style.css";
-import { opps, name } from "./array";
+import { opps } from "./array.js";
 console.log(opps[0] + " is a major opp, 100% facts");
 //forEach person in opps insert adj? html
 //input type check box
@@ -23,14 +23,13 @@ function clearFields() {
 }
 
 DOMSelectors.winButton.addEventListener("click", function (event) {
-  event.preventDefault(); //does not reload page
+  event.preventDefault();
   clearFields();
-  let buttons = document.querySelectorAll("button");
-  buttons.forEach((btn) => {});
-});
-
-createCard();
-const wins = opps.filter((win) => win.janeWin.includes(true));
+  
+const wins = opps.filter((win) => win.janeWin === true);
 console.log(wins);
 const losses = opps.filter((loss) => loss.janeWin.includes(false));
 console.log(losses);
+const ties = opps.filter((tie) => ("tie");
+
+//opps.forEach.insertAdjacentHTML

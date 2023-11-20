@@ -62,14 +62,19 @@ const opps = [
     lastName: "Peggleblast",
     abilities: ["Supirior Guide", "mlp reject"],
     weaknesses: ["ginger"],
-    janeWin: false,
+    janeWin: null,
   },
 
   {
     firstName: "Chief",
     lastName: "the Cow",
     abilities: ["babymaker3000", "chick magnet", "chaRIZZma"],
-    weaknesses: [""],
+    weaknesses: [
+      "low magnesium",
+      "low potassium",
+      "low phosphorus",
+      "protein-energy malnutrition",
+    ],
     janeWin: false,
   },
 
@@ -120,7 +125,7 @@ const opps = [
 
   {
     firstName: "Red",
-    lastName: "m&m",
+    lastName: "M&M",
     abilities: ["round", "big", "red"],
     weaknesses: ["ginger"],
     janeWin: true,
@@ -136,9 +141,18 @@ const opps = [
 
   {
     firstName: "MOAB",
-    lastName: "btd6",
+    lastName: "",
     abilities: ["round", "big", "blue"],
     weaknesses: ["pop", "darts"],
     janeWin: true,
   },
+  {
+    firstName: "Young",
+    lastName: "Sheldon",
+    abilities: ["round", "big", "blue"],
+    weaknesses: ["muhammad ali's dog"],
+    janeWin: true,
+  },
 ];
+
+export { opps };
