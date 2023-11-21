@@ -22,14 +22,28 @@ function clearFields() {
   DOMSelectors.container.innerHTML = "";
 }
 
-DOMSelectors.winButton.addEventListener("click", function (event) {
-  event.preventDefault();
+DOMSelectors.winButton.addEventListener("click", function () {
+  const wins = opps.filter((win) => win.janeWin === true);
   clearFields();
-  
-const wins = opps.filter((win) => win.janeWin === true);
-console.log(wins);
-const losses = opps.filter((loss) => loss.janeWin.includes(false));
-console.log(losses);
-const ties = opps.filter((tie) => ("tie");
+  wins.forEach((win) => {
+    DOMSelectors.container.insertAdjacentHTML(
+      "beforeend",
+      `<h1>${win.firstName} ${win.lastName}</h1>`
+    );
+  });
+});
 
-//opps.forEach.insertAdjacentHTML
+DOMSelectors.lossButton.addEventListener("click", function () {
+  const losses = opps.filter((loss) => loss.janeWin === false);
+  clearFields();
+  wins.forEach((loss) => {
+    DOMSelectors.container.insertAdjacentHTML(
+      "beforeend",
+      `<h1>${loss.firstName}</h1>`
+    );
+  });
+});
+
+/* const losses = opps.filter((loss) => loss.janeWin.includes(false));
+console.log(losses); */
+/* const ties = opps.filter((tie) => ("tie"); */

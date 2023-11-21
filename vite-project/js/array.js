@@ -62,7 +62,7 @@ const opps = [
     lastName: "Peggleblast",
     abilities: ["Supirior Guide", "mlp reject"],
     weaknesses: ["ginger"],
-    janeWin: null,
+    janeWin: false,
   },
 
   {
@@ -154,5 +154,4 @@ const opps = [
     janeWin: true,
   },
 ];
-
 export { opps };
