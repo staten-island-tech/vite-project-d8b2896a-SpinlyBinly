@@ -33,17 +33,25 @@ DOMSelectors.winButton.addEventListener("click", function () {
   });
 });
 
-DOMSelectors.lossButton.addEventListener("click", function () {
-  const losses = opps.filter((loss) => loss.janeWin === false);
+DOMSelectors.tieButton.addEventListener("click", function () {
+  const losses = opps.filter((loss) => loss.tie === true);
   clearFields();
-  wins.forEach((loss) => {
+  losses.forEach((loss) => {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
-      `<h1>${loss.firstName}</h1>`
+      `<h1>${loss.firstName} ${loss.lastName}</h1>`
     );
   });
 });
 
-/* const losses = opps.filter((loss) => loss.janeWin.includes(false));
-console.log(losses); */
-/* const ties = opps.filter((tie) => ("tie"); */
+/* DOMSelectors.tieButton.addEventListener("click", function () {
+  const ties = opps.filter((tie) => (tie.janeWin = "tie"));
+  clearFields();
+  ties.forEach((tie) => {
+    DOMSelectors.container.insertAdjacentHTML(
+      "beforeend",
+      `<h1>${tie.firstName} ${tie.lastName}</h1>`
+    );
+  });
+});
+ */

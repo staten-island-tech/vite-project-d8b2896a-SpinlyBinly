@@ -36,7 +36,7 @@ const opps = [
     lastName: "from Fortnite",
     abilities: ["Fortnite Battlepass"],
     weaknesses: [""],
-    janeWin: false,
+    janeWin: true,
   },
 
   {
@@ -54,7 +54,7 @@ const opps = [
       "chaRIZZma",
     ],
     weaknesses: [],
-    janeWin: false,
+    janeWin: true,
   },
 
   {
@@ -62,7 +62,7 @@ const opps = [
     lastName: "Peggleblast",
     abilities: ["Supirior Guide", "mlp reject"],
     weaknesses: ["ginger"],
-    janeWin: false,
+    tie: true,
   },
 
   {
@@ -75,20 +75,12 @@ const opps = [
       "low phosphorus",
       "protein-energy malnutrition",
     ],
-    janeWin: false,
-  },
-
-  {
-    firstName: "Master",
-    lastName: "Oogway",
-    abilities: ["Kung Fu", "Chemistry"],
-    weaknesses: [],
-    janeWin: false,
+    tie: true,
   },
 
   {
     firstName: "Kratos",
-    lastName: "God of War",
+    lastName: "",
     abilities: [
       "Stamina",
       "Speed",
@@ -116,7 +108,7 @@ const opps = [
   },
 
   {
-    firstName: "Terrance",
+    firstName: "Terence",
     lastName: "Angry Birds",
     abilities: ["round", "big", "red"],
     weaknesses: ["ginger"],
@@ -128,7 +120,7 @@ const opps = [
     lastName: "M&M",
     abilities: ["round", "big", "red"],
     weaknesses: ["ginger"],
-    janeWin: true,
+    tie: true,
   },
 
   {
