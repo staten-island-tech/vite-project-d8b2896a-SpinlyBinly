@@ -33,8 +33,8 @@ DOMSelectors.winButton.addEventListener("click", function () {
   });
 });
 
-DOMSelectors.tieButton.addEventListener("click", function () {
-  const losses = opps.filter((loss) => loss.tie === true);
+DOMSelectors.lossButton.addEventListener("click", function () {
+  const losses = opps.filter((loss) => loss.janeWin === true);
   clearFields();
   losses.forEach((loss) => {
     DOMSelectors.container.insertAdjacentHTML(
@@ -44,8 +44,8 @@ DOMSelectors.tieButton.addEventListener("click", function () {
   });
 });
 
-/* DOMSelectors.tieButton.addEventListener("click", function () {
-  const ties = opps.filter((tie) => (tie.janeWin = "tie"));
+DOMSelectors.tieButton.addEventListener("click", function () {
+  const ties = opps.filter((tie) => (tie.tie === true));
   clearFields();
   ties.forEach((tie) => {
     DOMSelectors.container.insertAdjacentHTML(
@@ -54,4 +54,15 @@ DOMSelectors.tieButton.addEventListener("click", function () {
     );
   });
 });
- */
+
+document.querySelector(".themeBTN").addEventListener("click", function () {
+if (document.body.classList.contains("light")) {
+  document.body.classList.add("dark");
+  document.body.classList.remove("light");
+} else{
+  document.body.classList.add("dark");
+  document.body.classList.remove("light");
+}
+});
+
+

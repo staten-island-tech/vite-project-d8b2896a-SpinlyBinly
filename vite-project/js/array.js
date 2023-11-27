@@ -33,7 +33,7 @@ const opps = [
 
   {
     firstName: "Peely",
-    lastName: "from Fortnite",
+    lastName: "",
     abilities: ["Fortnite Battlepass"],
     weaknesses: [""],
     janeWin: true,
