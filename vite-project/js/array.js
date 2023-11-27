@@ -54,7 +54,7 @@ const opps = [
       "chaRIZZma",
     ],
     weaknesses: [],
-    janeWin: true,
+    janeWin: false,
   },
 
   {
@@ -62,7 +62,7 @@ const opps = [
     lastName: "Peggleblast",
     abilities: ["Supirior Guide", "mlp reject"],
     weaknesses: ["ginger"],
-    tie: true,
+    janeTie: true,
   },
 
   {
@@ -75,7 +75,7 @@ const opps = [
       "low phosphorus",
       "protein-energy malnutrition",
     ],
-    tie: true,
+    janeTie: true,
   },
 
   {
@@ -120,7 +120,7 @@ const opps = [
     lastName: "M&M",
     abilities: ["round", "big", "red"],
     weaknesses: ["ginger"],
-    tie: true,
+    janeTie: true,
   },
 
   {

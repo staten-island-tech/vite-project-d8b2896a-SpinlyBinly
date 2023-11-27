@@ -1,10 +1,6 @@
 import "../css/style.css";
 import { opps } from "./array.js";
 console.log(opps[0] + " is a major opp, 100% facts");
-//forEach person in opps insert adj? html
-//input type check box
-//event listener - filter array (2 items)
-//another checkbox to change theme (light and dark)
 
 const DOMSelectors = {
   container: document.querySelector(".container"),
@@ -34,18 +30,20 @@ DOMSelectors.winButton.addEventListener("click", function () {
 });
 
 DOMSelectors.lossButton.addEventListener("click", function () {
-  const losses = opps.filter((loss) => loss.janeWin === true);
+  const losses = opps.filter((loss) => loss.janeWin === false);
   clearFields();
   losses.forEach((loss) => {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
-      `<h1>${loss.firstName} ${loss.lastName}</h1>`
+      `<h1>${loss.firstName} ${loss.lastName}</h1>
+      <img id="img" src="${loss.img}" class="">
+      <h3 id="h3" class="">${loss.description}</h3>`
     );
   });
 });
 
 DOMSelectors.tieButton.addEventListener("click", function () {
-  const ties = opps.filter((tie) => (tie.tie === true));
+  const ties = opps.filter((tie) => tie.janeTie === true);
   clearFields();
   ties.forEach((tie) => {
     DOMSelectors.container.insertAdjacentHTML(
@@ -56,13 +54,11 @@ DOMSelectors.tieButton.addEventListener("click", function () {
 });
 
 document.querySelector(".themeBTN").addEventListener("click", function () {
-if (document.body.classList.contains("light")) {
-  document.body.classList.add("dark");
-  document.body.classList.remove("light");
-} else{
-  document.body.classList.add("dark");
-  document.body.classList.remove("light");
-}
+  if (document.body.classList.contains("light")) {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  } else {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  }
 });
-
-
