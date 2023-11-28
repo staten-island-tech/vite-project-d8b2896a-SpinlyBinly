@@ -5,6 +5,7 @@ const opps = [
     abilities: ["boxing", "strong"],
     weaknesses: ["Poor Defense", "flying", "heights"],
     janeWin: true,
+    img: "https://static.wikia.nocookie.net/mms/images/7/71/RedCharacter.png/revision/latest/scale-to-width/360?cb=20191102171300",
   },
 
   {
@@ -13,6 +14,7 @@ const opps = [
     abilities: ["teeth", "bite", "scary"],
     weaknesses: ["short arms"],
     janeWin: false,
+    img: "https://images.unsplash.com/photo-1657987360827-a80ddbe86b5d?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 
   {
@@ -121,6 +123,7 @@ const opps = [
     abilities: ["round", "big", "red"],
     weaknesses: ["ginger"],
     janeTie: true,
+    img: "https://static.wikia.nocookie.net/mms/images/7/71/RedCharacter.png/revision/latest/scale-to-width/360?cb=20191102171300",
   },
 
   {
