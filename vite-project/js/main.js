@@ -29,7 +29,7 @@ DOMSelectors.winButton.addEventListener("click", function () {
   });
 });
 
-DOMSelectors.lossButton.addEventListener("click", function () {
+DOMSelectors.loseButton.addEventListener("click", function () {
   const losses = opps.filter((loss) => loss.janeWin === false);
   clearFields();
   losses.forEach((loss) => {
@@ -62,3 +62,4 @@ document.querySelector(".themeBTN").addEventListener("click", function () {
     document.body.classList.remove("light");
   }
 });
+s;
