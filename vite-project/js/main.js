@@ -1,6 +1,5 @@
 import "../css/style.css";
 import { opps } from "./array.js";
-console.log(opps[0] + " is a major opp, 100% facts");
 
 const DOMSelectors = {
   container: document.querySelector(".container"),
