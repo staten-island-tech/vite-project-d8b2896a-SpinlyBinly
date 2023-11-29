@@ -25,7 +25,7 @@ DOMSelectors.winButton.addEventListener("click", function () {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
       `<div class=card><h1>${win.firstName} ${win.lastName}</h1>
-      <img src=${win.value} alt=fart>
+      <img class="imgs" src=${win.img} alt=>
       <h3 id=h3 class=>${win.description}</h3></div>`
     );
   });
@@ -38,7 +38,7 @@ DOMSelectors.loseButton.addEventListener("click", function () {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
       `<div class=card><h1>${loss.firstName} ${loss.lastName}</h1>
-      <img src="${loss.img}" alt="">
+      <img class="imgs"src="${loss.img}" alt="">
       <h3 id="h3" class="">${loss.description}</h3></div>`
     );
   });
@@ -51,7 +51,7 @@ DOMSelectors.tieButton.addEventListener("click", function () {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
       `<div class=card><h1>${tie.firstName} ${tie.lastName}</h1>
-      <img src="${tie.value}" alt="">
+      <img class="imgs" src="${tie.img}" alt="">
       <h3 id="h3" class="">${tie.description}</h3></div>`
     );
   });
