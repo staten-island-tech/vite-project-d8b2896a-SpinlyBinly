@@ -37,9 +37,9 @@ DOMSelectors.loseButton.addEventListener("click", function () {
   losses.forEach((loss) => {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
-      `<h1>${loss.firstName} ${loss.lastName}</h1>
+      `<div class=card><h1>${loss.firstName} ${loss.lastName}</h1>
       <img src="${loss.img}" alt="">
-      <h3 id="h3" class="">${loss.description}</h3>`
+      <h3 id="h3" class="">${loss.description}</h3></div>`
     );
   });
 });
@@ -50,9 +50,9 @@ DOMSelectors.tieButton.addEventListener("click", function () {
   ties.forEach((tie) => {
     DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
-      `<h1>${tie.firstName} ${tie.lastName}</h1>
+      `<div class=card><h1>${tie.firstName} ${tie.lastName}</h1>
       <img src="${tie.value}" alt="">
-      <h3 id="h3" class="">${tie.description}</h3>`
+      <h3 id="h3" class="">${tie.description}</h3></div>`
     );
   });
 });
