@@ -20,8 +20,8 @@
   --black: #000;
   --light-blue: rgb(114, 194, 255);
   --dark-blue: rgb(60, 136, 194);
-  --dark-pink: rgb(197, 114, 160);
-  --cream: rgb(255, 228, 206); 
+  --dark-pink: #d6ccc2;
+  --cream: #f5ebe0; 
  /**/
   --primary: var(--light-blue);
   --secondary: var(--purple);
@@ -30,6 +30,7 @@
 
 body {
   background-color: var(--secondary);
+  justify-content: center;
   margin: 0;
   place-items: center;
   min-width: 320px;
@@ -38,23 +39,44 @@ body {
 
 .container{
   display:flex;
-  flex-direction:row;
-  justify-content:center;
-  font-size: medium;
   flex-wrap: wrap;
+  flex-direction:row;
+  justify-content:space-between;
+  font-size: medium;
+  align-items: center;
+  text-align: center;
+}
+.card{
+  height: 50vh;
+  width: 25%;
+  padding: 2em;
+  margin: ;
+  background-color: var(--cream);
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8%;
+  box-shadow: 10px 5px 5px red;;
+}
+.header{
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
 .imgs{
   height: 200px;
   width: 200px;
 }
-.card{
-  height: 50vh;
-  width: 50vw;
-  padding: 2em;
-  background-color: var(--cream);
-  display: flex;
+
+h3{
+  font-size: large;
 }
+
+
 .light{
   --primary:var(--light-pink);
   --secondary: var(--dark-pink);
@@ -73,10 +95,6 @@ a:hover {
   color: #535bf2;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 
 #app {
   max-width: 1280px;
