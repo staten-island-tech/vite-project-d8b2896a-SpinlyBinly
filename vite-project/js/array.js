@@ -5,7 +5,7 @@ const opps = [
     abilities: ["boxing", "strong"],
     weaknesses: ["Poor Defense", "flying", "heights"],
     janeWin: true,
-    img: "https://static.wikia.nocookie.net/mms/images/7/71/RedCharacter.png/revision/latest/scale-to-width/360?cb=20191102171300",
+    img: "https://www.freeiconspng.com/thumbs/muhammad-ali-png/muhammad-ali-4.png",
     description:
       "bro is lit dead whats he gonna do he never even competed in youtuber vs tiktoker boxing match",
   },
@@ -27,6 +27,7 @@ const opps = [
     abilities: ["master coder", "volleyball", "short arms"],
     weaknesses: ["heritage russian", "mrs. levina"],
     janeWin: true,
+    img: "https://mail.google.com/mail/u/0?ui=2&ik=e9f4e1419b&attid=0.1&permmsgid=msg-a:r-7057354422312273891&th=18c32d8051ad923d&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_JmUPP_9R8PY-CENoPErlqTHYhQowk0KXK4paUVMxr9Vpw5uqF5Lq2hNAdPKjU4OGTDdtZ0NVGmZR2nzxaZQCv6DcMFreSmzhUH7zO8AhBCC4rAzunA8IdTO4&disp=emb&realattid=18c32d7fb7fe264aa351",
     description: "bro is not even level 100 in peggle blast",
   },
 
@@ -36,7 +37,7 @@ const opps = [
     abilities: ["teeth", "bite", "scary"],
     weaknesses: [],
     janeWin: false,
-    img: "https://a-z-animals.com/media/2021/12/Bichon-Frise.jpg",
+    img: "https://www.freeiconspng.com/thumbs/dog-png/dog-png-18.png",
     description: "look at those chompers!!!!!!",
   },
 
@@ -46,10 +47,18 @@ const opps = [
     abilities: ["Fortnite Battlepass"],
     weaknesses: [""],
     janeWin: false,
-    img: "https://spirit.scene7.com/is/image/Spirit/01544022-a?$Detail$",
+    img: "https://www.pngmart.com/files/22/Fortnite-Peely-PNG-Isolated-File.png",
     description: "idk look at those pecs",
   },
-
+  {
+    firstName: "Boy from the Polar Express",
+    lastName: "",
+    abilities: ["smart"],
+    weaknesses: ["no one i ever wanted to fight more", "nerd"],
+    janeWin: true,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLl1U45Tf2KJnMInqjriui6wICumzO_TuZEEXPMj8_Q&s",
+    description: "no one i ever wanted to fight more",
+  },
   {
     firstName: "Confucius",
     lastName: "",
@@ -67,8 +76,8 @@ const opps = [
     abilities: ["Supirior Guide", "mlp reject"],
     weaknesses: ["ginger"],
     janeTie: true,
-    img: "https://static.wikia.nocookie.net/peggle/images/3/3a/Fnord.png/revision/latest?cb=20150315091602",
-    description: "on an even playing field yeah but he literally cheats",
+    img: "https://www.spriters-resource.com/resources/sheet_icons/134/136764.png?updated=1596395738",
+    description: "on an even playing field yeah i could win but he literally cheats",
   },
 
   {
@@ -82,7 +91,7 @@ const opps = [
       "protein-energy malnutrition",
     ],
     janeTie: true,
-    img: "https://www.ciwf.org.uk/media/3836620/Dairy-cow.jpg?center=0.3723333304268973,0.49086165863913594&mode=crop&width=342&height=342&&rnd=130851690420000000",
+    img: "https://www.freepnglogos.com/uploads/cow-png/cow-dairy-farms-american-dairy-association-north-east-35.png",
     description:
       "it would be a tough battle but overall i think we're pretty evenly matched",
   },
@@ -116,7 +125,7 @@ const opps = [
     abilities: ["purple"],
     weaknesses: ["purple"],
     janeWin: true,
-    img: "https://factsandfigment.com/wp-content/uploads/2019/10/167-1674648_figments-of-the-imagination-disney-figment.jpg",
+    img: "https://i.pinimg.com/originals/0a/a1/71/0aa17125b79bd3f72e5fa1e597d35c57.png",
     description: "who couldnt beat figment tbh",
   },
 
@@ -126,7 +135,7 @@ const opps = [
     abilities: ["round", "big", "red"],
     weaknesses: ["ginger"],
     janeWin: false,
-    img: "https://static.wikia.nocookie.net/poohadventures/images/2/23/Terence_copy.png/revision/latest/scale-to-width-down/200?cb=20220503010445",
+    img: "https://static.wikia.nocookie.net/0dc8b41e-c918-4314-9b1e-a6700cd1d9bf/scale-to-width/370",
     description:
       "my ass is not beating terence he is the 200 pound man brunetti warned us not to stand next to on the bus",
   },
@@ -137,9 +146,9 @@ const opps = [
     abilities: ["round", "big", "red"],
     weaknesses: ["ginger"],
     janeTie: true,
-    img: "https://static.wikia.nocookie.net/mms/images/7/71/RedCharacter.png/revision/latest/scale-to-width/360?cb=20191102171300",
+    img: "https://preview.redd.it/kora6bpyx8o81.png?width=293&format=png&auto=webp&s=ba87c04a73918acb6173651d2f295b326aaade9f",
     description:
-      "tbh it would be a close battle but in the end i think i could come out on top",
+      "tbh it would be a close battle but on a good day i think i could come out on top",
   },
 
   {
@@ -148,7 +157,7 @@ const opps = [
     abilities: ["round", "big", "red", "guns"],
     weaknesses: ["ginger"],
     janeWin: false,
-    img: "https://static.tvtropes.org/pmwiki/pub/images/yosemitesam.jpg",
+    img: "https://i.pinimg.com/originals/db/cf/97/dbcf970b07205b79d58f8199d6a294e1.png",
     description: "do you see those guns i have no way to even defend myself",
   },
 
@@ -158,7 +167,7 @@ const opps = [
     abilities: ["round", "big", "blue"],
     weaknesses: ["pop", "darts"],
     janeWin: true,
-    img: "https://static.wikia.nocookie.net/b__/images/b/ba/BTD6MOAB.png/revision/latest?cb=20180809063308&path-prefix=bloons",
+    img: "https://preview.redd.it/hey-there-fellow-bloons-moab-here-and-today-were-gonna-be-v0-renvp0q0wrua1.png?width=640&crop=smart&auto=webp&s=1cf3d194c5605f929f606a44cc87ccb2204a50e8",
     description:
       "one hit from the alchemist monkey's potions and this thing is gone",
   },
@@ -168,18 +177,10 @@ const opps = [
     abilities: ["round", "big", "blue"],
     weaknesses: ["muhammad ali's dog"],
     janeWin: true,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6zXHK0JllyLNHXPsCUeiwAhyI6pZJph1NSNRJW578BLe6Fe-_z7OKuPDnZcFRlDd0bNM&usqp=CAU",
+    img: "https://static.tvtropes.org/pmwiki/pub/images/sheldon_cooper.png",
     description:
       "i only want to fight the polar express kid a LITTLE more than this guy",
   },
-  {
-    firstName: "Boy from the Polar Express",
-    lastName: "",
-    abilities: ["smart"],
-    weaknesses: ["no one i ever wanted to fight more", "nerd"],
-    janeWin: true,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLl1U45Tf2KJnMInqjriui6wICumzO_TuZEEXPMj8_Q&s",
-    description: "no one i ever wanted to fight more",
-  },
+
 ];
 export { opps };
