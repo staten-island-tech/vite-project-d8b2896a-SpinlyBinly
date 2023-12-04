@@ -27,7 +27,7 @@ const opps = [
     abilities: ["master coder", "volleyball", "short arms"],
     weaknesses: ["heritage russian", "mrs. levina"],
     janeWin: true,
-    img: "https://mail.google.com/mail/u/0?ui=2&ik=e9f4e1419b&attid=0.1&permmsgid=msg-a:r-7057354422312273891&th=18c32d8051ad923d&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_JmUPP_9R8PY-CENoPErlqTHYhQowk0KXK4paUVMxr9Vpw5uqF5Lq2hNAdPKjU4OGTDdtZ0NVGmZR2nzxaZQCv6DcMFreSmzhUH7zO8AhBCC4rAzunA8IdTO4&disp=emb&realattid=18c32d7fb7fe264aa351",
+    img: "https://www.usmagazine.com/wp-content/uploads/2020/11/Home-Alone-Where-Are-They-Now.jpg?quality=40&strip=all",
     description: "bro is not even level 100 in peggle blast",
   },
 
@@ -77,7 +77,8 @@ const opps = [
     weaknesses: ["ginger"],
     janeTie: true,
     img: "https://www.spriters-resource.com/resources/sheet_icons/134/136764.png?updated=1596395738",
-    description: "on an even playing field yeah i could win but he literally cheats",
+    description:
+      "on an even playing field yeah i could win but he literally cheats",
   },
 
   {
@@ -181,6 +182,5 @@ const opps = [
     description:
       "i only want to fight the polar express kid a LITTLE more than this guy",
   },
-
 ];
 export { opps };
