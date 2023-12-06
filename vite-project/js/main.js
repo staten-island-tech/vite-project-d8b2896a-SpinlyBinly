@@ -16,7 +16,7 @@ function clearFields() {
   DOMSelectors.container.innerHTML = "";
 }
 
-DOMSelectors.winButton.addEventListener("click", function () {
+ DOMSelectors.winButton.addEventListener("click", function () {
   const wins = opps.filter((win) => win.janeWin === true);
   clearFields();
   wins.forEach((win) => {
@@ -57,7 +57,27 @@ DOMSelectors.tieButton.addEventListener("click", function () {
     );
   });
 });
+ 
+/* function populate(arr){
+  arr.forEach((el)=> parent.insertAdjacentHTML(
+    "beforeend",
+    `<div class=card><h1>${el.firstName} ${el.lastName}</h1>
+      <img class="imgs" src="${el.img}" alt="">
+      <h3 id="h3" class="">${el.description}</h3>
+      </div>`
+  ))
+}
+function filters(){
+  let buttons = document.querySelectorAll(".btn")
+buttons.forEach((btn) => btn.addEventListener("click", function(){
+  let category = btn.textContent.toLowerCase()
+  let newArr = items.filter((el) =>el.type.includes(category))
+  document.querySelector(".parent").innerHTML = ""
+  populate(newArr)
+}))};
+filters()
 
+ */
 document.querySelector("#themeBTN").addEventListener("click", function () {
   if (document.body.classList.contains("light")) {
     document.body.classList.add("dark");
