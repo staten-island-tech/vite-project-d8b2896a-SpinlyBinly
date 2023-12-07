@@ -8,7 +8,7 @@ const DOMSelectors = {
   tieButton: document.querySelector("#tieButton"),
   h2s: document.querySelectorAll("h2"),
   container: document.querySelector(".container"),
-  button: document.querySelector(".btn"),
+  buttons: document.querySelectorAll(".btn"),
   img: document.querySelector(".img"),
 };
 
@@ -58,7 +58,6 @@ DOMSelectors.tieButton.addEventListener("click", function () {
   });
 }); */
 
-let buttons = document.querySelectorAll(".btn");
 function populate(arr) {
   arr.forEach((el) =>
     parent.insertAdjacentHTML(
@@ -70,10 +69,11 @@ function populate(arr) {
     )
   );
 }
+populate(opps);
 function filters() {
-  buttons.forEach((btn) =>
+  DOMSelectors.buttons.forEach((btn) =>
     btn.addEventListener("click", function () {
-      let category = btn.textContent.toLowerCase();
+      let category = 
       let newArr = items.filter((el) => el.type.includes(category));
       document.querySelector(".parent").innerHTML = "";
       populate(newArr);
