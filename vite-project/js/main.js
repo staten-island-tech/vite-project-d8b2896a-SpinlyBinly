@@ -60,7 +60,7 @@ DOMSelectors.tieButton.addEventListener("click", function () {
 
 function populate(arr) {
   arr.forEach((el) =>
-    parent.insertAdjacentHTML(
+    DOMSelectors.container.insertAdjacentHTML(
       "beforeend",
       `<div class=card><h1>${el.firstName} ${el.lastName}</h1>
       <img class="imgs" src="${el.img}" alt="">
@@ -73,9 +73,9 @@ populate(opps);
 function filters() {
   DOMSelectors.buttons.forEach((btn) =>
     btn.addEventListener("click", function () {
-      let category = 
-      let newArr = items.filter((el) => el.type.includes(category));
-      document.querySelector(".parent").innerHTML = "";
+      let category = btn.textContent.toLowerCase();
+      let newArr = opps.filter((el) => el.janeWin.includes(category));
+      document.querySelector(".container").innerHTML = "";
       populate(newArr);
     })
   );
