@@ -16,6 +16,42 @@ function clearFields() {
   DOMSelectors.container.innerHTML = "";
 }
 
+function populate(arr) {
+  arr.forEach((el) =>
+    DOMSelectors.container.insertAdjacentHTML(
+      "beforeend",
+      `<div class=card><h1>${el.firstName} ${el.lastName}</h1>
+      <img class="imgs" src="${el.img}" alt="">
+      <h3 id="h3" class="">${el.description}</h3>
+      </div>`
+    )
+  );
+}
+
+populate(opps);
+function filters() {
+  DOMSelectors.buttons.forEach((btn) =>
+    btn.addEventListener("click", function () {
+      let category = btn.textContent.toLowerCase()
+      let newArr = opps.filter((el) => el.janeWin.includes(category));
+      clearFields()
+      populate(newArr);
+    })
+  );
+}
+filters();
+
+document.querySelector("#themeBTN").addEventListener("click", function () {
+  if (document.body.classList.contains("light")) {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");       
+  } else {
+    document.body.classList.remove("dark");
+    document.body.classList.add("light");
+  }
+  populate(opps)
+});
+
 /* DOMSelectors.winButton.addEventListener("click", function () {
   const wins = opps.filter((win) => win.janeWin.includes("true"));
   clearFields();
@@ -57,37 +93,3 @@ DOMSelectors.tieButton.addEventListener("click", function () {
     );
   });
 }); */
-
-function populate(arr) {
-  arr.forEach((el) =>
-    DOMSelectors.container.insertAdjacentHTML(
-      "beforeend",
-      `<div class=card><h1>${el.firstName} ${el.lastName}</h1>
-      <img class="imgs" src="${el.img}" alt="">
-      <h3 id="h3" class="">${el.description}</h3>
-      </div>`
-    )
-  );
-}
-populate(opps);
-function filters() {
-  DOMSelectors.buttons.forEach((btn) =>
-    btn.addEventListener("click", function () {
-      let category = btn.textContent.toLowerCase();
-      let newArr = opps.filter((el) => el.janeWin.includes(category));
-      document.querySelector(".container").innerHTML = "";
-      populate(newArr);
-    })
-  );
-}
-filters();
-
-document.querySelector("#themeBTN").addEventListener("click", function () {
-  if (document.body.classList.contains("light")) {
-    document.body.classList.add("dark");
-    document.body.classList.remove("light");
-  } else {
-    document.body.classList.remove("dark");
-    document.body.classList.add("light");
-  }
-});
